@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MovingSaw : MonoBehaviour
+public class WaypointFollower : MonoBehaviour
 {
     [SerializeField] private GameObject[] waypoints;
 
