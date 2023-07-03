@@ -1,0 +1,2538 @@
+fileFormatVersion: 2
+guid: 1159a74c7cb5fd94ba4b954044529def
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 16x16 traps_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 911
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf1d56c1f35a51489787d03f3e3abfd
+      internalID: -897863169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 912
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012b32567adf4044894978c2afaa9df4
+      internalID: -1299473779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 838
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5936244b2585198479f4ff804e57cdb3
+      internalID: 1308326484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 839
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70457db562fb6294e8b02953e3589991
+      internalID: -928528811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 840
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.575567, y: 0.50000143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1631b27d359f0642baf80d543fa1677
+      internalID: 1523577047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 839
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd11afc8e8ff1144bb22791cc63b9c0
+      internalID: -630330955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 869
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b484808e0ab6a44a0c0c4e0a61cf96
+      internalID: 105903741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_7
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 839
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb6ef31c6bd8a847a9abb3d241da359
+      internalID: -1229942273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_8
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 840
+        width: 44
+        height: 42
+      alignment: 9
+      pivot: {x: 0.45466104, y: 0.5323864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6166e3074e1aa664c84d648002284a6e
+      internalID: 1414555142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_9
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 840
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72436374050c0804d87a0327a8586ab6
+      internalID: 468758576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_10
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 839
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8a2fb3d071cae4f8c0fe2d1db623b6
+      internalID: -1480723421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_11
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 840
+        width: 43
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5000014, y: 0.51417035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87478b0bdc2671d41aaca1aeca946613
+      internalID: 1783228828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_12
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 839
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862d052b0d28dba4fa2eb70a003e96d2
+      internalID: -17064277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_13
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 840
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3df4bc4e4d4f4b42b2ec8bab6b2f5b2
+      internalID: -1862479896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_14
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 841
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c403d2f9dda54744b3f02944ba812f5
+      internalID: -819856188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_15
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 823
+        width: 22
+        height: 1
+      alignment: 9
+      pivot: {x: 0.7281532, y: 2.0163457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36141e5e2d6aca4c90e61f657515e4f
+      internalID: 1553738654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_16
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 859
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a941e0d2b5f3945972319512c358c4
+      internalID: 1645703209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_17
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 784
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b46d28064533f44a6d9cd61996fd1b
+      internalID: -229363677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_18
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 784
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99367639a1e70a4bbcb697267d1aa39
+      internalID: 945571214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_19
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 784
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5506e2ea502584ea42478a1d8f8ead
+      internalID: -1542251749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_20
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 784
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc9daf69ef83d4428717803a404799a
+      internalID: 355394824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_21
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 802
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b4c121c15376e40b1edfda4e095598
+      internalID: 2069157908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_22
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 784
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ded4addfead58547b0d2211d129f6af
+      internalID: 875437417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_23
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 784
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7a807d97f38af47b87053e7541ab36
+      internalID: 962555076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_24
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 784
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6316e4256eae484f9dd634f6f208851
+      internalID: -1537204386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_25
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 784
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7076742871ee17c448d7a8de690b533c
+      internalID: -2053874578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_26
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 784
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4001a51c7affb14a97deb1b41774f4e
+      internalID: -1387074714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_27
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 784
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238d3cf84f233fb4ba2f4dc62f4928b3
+      internalID: -1942463205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_28
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 784
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5b5b87023b3e2428b431e1bfc41ac6
+      internalID: 1523471646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_29
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 784
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece02c7ea7338d8448f1b8d9e89c1395
+      internalID: 492835254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_30
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 792
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1200cb3b181be4d9a0d583ec71dfb0
+      internalID: -1468253617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_31
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 704
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85b54c4f5b8c5040a8477c1bc49004a
+      internalID: 230387408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_32
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 707
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d393d0f8feaadf248b75913d7dfe3327
+      internalID: -354388135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_33
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 702
+        width: 131
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabf4a36ffb8eaf499ba666dbc72aa59
+      internalID: -799243603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_34
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 669
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608c1093f1c8085479f2406c4428fa8b
+      internalID: -1775667514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 768
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e35f70b73005e543b4d6a7f3a84d37d
+      internalID: 101265558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_36
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 635
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c49e3fa3ea3a8b4383f1efae2d13a7c
+      internalID: -1475515035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_37
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 634
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d315bde9a21b59f4983cd89f05c3fe5e
+      internalID: 1831800534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_38
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 630
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7803d1cedfd71544abd251ab1a999035
+      internalID: 703426917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_39
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 632
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ca3bedf1e4143458f7b57b40956a52
+      internalID: 1608545275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 391
+        width: 768
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f20cf09d96743a47a7bb724dea7a6f5
+      internalID: 646013554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_41
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 364
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 23.66369, y: -1.5952097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9cfb4d848b8fe4092e62eb4588d5d0
+      internalID: 480041135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_42
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 340
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 10, y: 0, z: 7, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc073ad02851244abacc2751a87e3a1
+      internalID: -1247766564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_43
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 357
+        width: 24
+        height: 6
+      alignment: 9
+      pivot: {x: 3.802863, y: -0.023803711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a6b0c37510112488a3c40f17477245
+      internalID: 938346015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_44
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 257
+        width: 4
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2accc07bab95207468b73909d65c7320
+      internalID: -1597038301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_45
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 286
+        width: 62
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b8e8f6d79c79041a5936f43ba3a07d
+      internalID: -1368082425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_46
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 267
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195f9ac83ba173c42b374fb5416dc42b
+      internalID: 1141141440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_47
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 267
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90f60b2b2866a248b2fd7ad896bbb8d
+      internalID: 864808357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_48
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 211
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b2cee86f1536143a0da84e496cbda8
+      internalID: -610118091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_49
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 212
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6d9a65f2a404a4d925d1db66bd6361
+      internalID: -1137729783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_50
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 211
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85b3509541b8ca498f1037ff7a509d2
+      internalID: 1912978788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_51
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 197
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7072acac0a4ed2f4e8975b643e9c114f
+      internalID: -122700770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_52
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 212
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105c948b127134049b9c552d60da699c
+      internalID: -1960371001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_53
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 210
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55bb2ef06f10014aad1e27f47092637
+      internalID: 359722093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_54
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 212
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ed64614ee8aef41bd3b734bfb80da4
+      internalID: 1585963579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_55
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 168
+        width: 18
+        height: 12
+      alignment: 9
+      pivot: {x: 1.4357164, y: -0.529288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03011cb27a2c6ee4f8ba335c75d69f3a
+      internalID: 880810691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_56
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 211
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9b0f6ee1b4ce04a9b79da5c945d3f1
+      internalID: 1776495276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_57
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 210
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae10ebb4561147439c9ecbae0327066
+      internalID: 736688410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_58
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 212
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6ed675775a1754f9ec75ac9c796dc1
+      internalID: -1487905435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_59
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 198
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b51a31d491dc344a6f4bf9f673c7f2
+      internalID: -871925839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_60
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 192
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6142d05856744af45b4318de5869b15f
+      internalID: -1862351865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_61
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 126
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58e37f045861c7468889e90289e204c
+      internalID: -1140118166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_62
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 156
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79db6d7edef273646b55440e397ea39c
+      internalID: 1336535243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_63
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 126
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8f8a71c5289f043bf51d6d724dd167
+      internalID: -884518020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_64
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 153
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726b468dfd4314246b59f3a7157bc87f
+      internalID: -623739861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_65
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 126
+        width: 20
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a0a2af4f5edaf4fb9b1ad708c46159
+      internalID: 628415680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_66
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 126
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d6b726e028dd445b5a065dbfa861f0
+      internalID: 369990567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_67
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 157
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b61e64de17f4e54baa8b5655ec2dee7
+      internalID: 750689258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_68
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 156
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5d69c3e5287604bb48f77177923702
+      internalID: 741934555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_69
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 156
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99587dee313546540b56f32d0374da0e
+      internalID: -980764890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_70
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 126
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4825d9c71548dd047a1148cbb1f9cb68
+      internalID: 1093944533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_71
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 156
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94aec99c715d2794da54b91f0210b6d7
+      internalID: -1686421621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_72
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 126
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce674348f46048439de7b58c97860c8
+      internalID: 103401183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_73
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 126
+        width: 78
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de148e1bc2e3ce499ca58c973273817
+      internalID: 813100564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_74
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 156
+        width: 50
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712a48b1209ebde4bb3d6c8b44e3cefe
+      internalID: 379128978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_75
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 126
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f3cc735d471a34da48d9f18b9dbe89
+      internalID: 548874731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_76
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 126
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b4e1cbd5b1ca54a92a6abbe895665c
+      internalID: -1397747684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_77
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 126
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77e2b8cb9c04eb4c9c2a53f9d19f4b2
+      internalID: -1691028782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_78
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 156
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5867ce5ecbabfa4b9a4ac60041da577
+      internalID: 1801158667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_79
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 126
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8336bddcac9a66418a912dfc4d7a7e8
+      internalID: 92204150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_80
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 156
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a8d7423cfd04d429ced44948ee8dbe
+      internalID: 1345307557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188be509bd268ec498a027f0c8aa2540
+      internalID: 1511932775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_82
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 30
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb9c86323fc5ca42835102e3853a22c
+      internalID: 452636411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_83
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 64
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fd52ca622416742bcd61df2dc7efdb
+      internalID: 1875571679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_84
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 36
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfc255755bf3de458ae28b596434405
+      internalID: -1563846638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_85
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 64
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f9570bc3cd40e44a459f571e507c7c
+      internalID: 1293148717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 132
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362517c6b8222684aaf29ec05ee12624
+      internalID: 871628123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_87
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 30
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141cb585f6cd38545ba88738ee1ce8a8
+      internalID: -1546202579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_88
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 64
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466c993350bdfef4bb3d1e34b6c66e2d
+      internalID: 799982533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_89
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 36
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047dd37cfe6dcac4eb8138511dbfbe3b
+      internalID: 879252072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_90
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 36
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2aa4f959d7e914ab57da950020cf9a
+      internalID: 861370562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_91
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 64
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d49b2b621e39004ea88dab58f5b9886
+      internalID: -2070924851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_92
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 36
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712d0372832bf3c4f85cd67899ca6e7b
+      internalID: -316236415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_93
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 64
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a3c7238237de143b512a699e91bcd9
+      internalID: -727015627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_94
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 30
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cc73eccd1c84c41ae1b849e0343c66
+      internalID: -2095691796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_95
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 36
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7771c5b8dc93cad458099fc25adad5a0
+      internalID: 509414058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_96
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 64
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00eda9d430188846a089fa0a82a2d9f
+      internalID: 520666691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_97
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 30
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113d5c5fcf6a5334ca6ad9b31df6bbd1
+      internalID: -1982573476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_98
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 64
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99438f332d37d64409c4edc995823830
+      internalID: -2136276570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_99
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 30
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919b77f164e784147aa8539604d07e8e
+      internalID: -1657075264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_100
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8738f9d56bd01eb41bbfa66c17f82278
+      internalID: 180184778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_101
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cabc4ee52cb3dd4b81481b0b48be9b0
+      internalID: -1909224235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_102
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fbeaa69020fc24f9104da1ec468a09
+      internalID: -175815301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_103
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8096d88fcc177f649a643fbc67b3e438
+      internalID: 2146356015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_104
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc088778941fc4469a16f30e14a977f
+      internalID: 1845444846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_105
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d355f820c986a04f9815686061a8468
+      internalID: 1753658254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_106
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470d19025aa0d9e4b853b6b885033eaf
+      internalID: 622532822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_107
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6fa2516a3b3394cafad084a4ff4a33
+      internalID: -591609091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 traps_108
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 0
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7702c7974198ee449dea32aca4d86bf
+      internalID: 1036348870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      16x16 traps_0: -897863169
+      16x16 traps_1: -1299473779
+      16x16 traps_10: -1480723421
+      16x16 traps_100: 180184778
+      16x16 traps_101: -1909224235
+      16x16 traps_102: -175815301
+      16x16 traps_103: 2146356015
+      16x16 traps_104: 1845444846
+      16x16 traps_105: 1753658254
+      16x16 traps_106: 622532822
+      16x16 traps_107: -591609091
+      16x16 traps_108: 1036348870
+      16x16 traps_11: 1783228828
+      16x16 traps_12: -17064277
+      16x16 traps_13: -1862479896
+      16x16 traps_14: -819856188
+      16x16 traps_15: 1553738654
+      16x16 traps_16: 1645703209
+      16x16 traps_17: -229363677
+      16x16 traps_18: 945571214
+      16x16 traps_19: -1542251749
+      16x16 traps_2: 1308326484
+      16x16 traps_20: 355394824
+      16x16 traps_21: 2069157908
+      16x16 traps_22: 875437417
+      16x16 traps_23: 962555076
+      16x16 traps_24: -1537204386
+      16x16 traps_25: -2053874578
+      16x16 traps_26: -1387074714
+      16x16 traps_27: -1942463205
+      16x16 traps_28: 1523471646
+      16x16 traps_29: 492835254
+      16x16 traps_3: -928528811
+      16x16 traps_30: -1468253617
+      16x16 traps_31: 230387408
+      16x16 traps_32: -354388135
+      16x16 traps_33: -799243603
+      16x16 traps_34: -1775667514
+      16x16 traps_35: 101265558
+      16x16 traps_36: -1475515035
+      16x16 traps_37: 1831800534
+      16x16 traps_38: 703426917
+      16x16 traps_39: 1608545275
+      16x16 traps_4: 1523577047
+      16x16 traps_40: 646013554
+      16x16 traps_41: 480041135
+      16x16 traps_42: -1247766564
+      16x16 traps_43: 938346015
+      16x16 traps_44: -1597038301
+      16x16 traps_45: -1368082425
+      16x16 traps_46: 1141141440
+      16x16 traps_47: 864808357
+      16x16 traps_48: -610118091
+      16x16 traps_49: -1137729783
+      16x16 traps_5: -630330955
+      16x16 traps_50: 1912978788
+      16x16 traps_51: -122700770
+      16x16 traps_52: -1960371001
+      16x16 traps_53: 359722093
+      16x16 traps_54: 1585963579
+      16x16 traps_55: 880810691
+      16x16 traps_56: 1776495276
+      16x16 traps_57: 736688410
+      16x16 traps_58: -1487905435
+      16x16 traps_59: -871925839
+      16x16 traps_6: 105903741
+      16x16 traps_60: -1862351865
+      16x16 traps_61: -1140118166
+      16x16 traps_62: 1336535243
+      16x16 traps_63: -884518020
+      16x16 traps_64: -623739861
+      16x16 traps_65: 628415680
+      16x16 traps_66: 369990567
+      16x16 traps_67: 750689258
+      16x16 traps_68: 741934555
+      16x16 traps_69: -980764890
+      16x16 traps_7: -1229942273
+      16x16 traps_70: 1093944533
+      16x16 traps_71: -1686421621
+      16x16 traps_72: 103401183
+      16x16 traps_73: 813100564
+      16x16 traps_74: 379128978
+      16x16 traps_75: 548874731
+      16x16 traps_76: -1397747684
+      16x16 traps_77: -1691028782
+      16x16 traps_78: 1801158667
+      16x16 traps_79: 92204150
+      16x16 traps_8: 1414555142
+      16x16 traps_80: 1345307557
+      16x16 traps_81: 1511932775
+      16x16 traps_82: 452636411
+      16x16 traps_83: 1875571679
+      16x16 traps_84: -1563846638
+      16x16 traps_85: 1293148717
+      16x16 traps_86: 871628123
+      16x16 traps_87: -1546202579
+      16x16 traps_88: 799982533
+      16x16 traps_89: 879252072
+      16x16 traps_9: 468758576
+      16x16 traps_90: 861370562
+      16x16 traps_91: -2070924851
+      16x16 traps_92: -316236415
+      16x16 traps_93: -727015627
+      16x16 traps_94: -2095691796
+      16x16 traps_95: 509414058
+      16x16 traps_96: 520666691
+      16x16 traps_97: -1982573476
+      16x16 traps_98: -2136276570
+      16x16 traps_99: -1657075264
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
