@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerLife : MonoBehaviour
@@ -6,6 +7,7 @@ public class PlayerLife : MonoBehaviour
     private Rigidbody2D rb;
     private Animator _animator;
     private BoxCollider2D boxCollider2D;
+    [SerializeField] private GameObject deathPanel;
 
     private float timer = 0f;
     private bool isGameOver = false;
@@ -17,6 +19,8 @@ public class PlayerLife : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         boxCollider2D = GetComponent<BoxCollider2D>();
+        Time.timeScale = 1;
+        deathPanel.SetActive(false);
     }
     void Update()
     {
@@ -27,6 +31,7 @@ public class PlayerLife : MonoBehaviour
         if (!isGameOver)
         {
             timer += Time.deltaTime;
+
         }
         DisplayTime(timer);
     }
@@ -44,6 +49,8 @@ public class PlayerLife : MonoBehaviour
         if (collision.gameObject.CompareTag("Trap"))
         {
             Die();
+            Time.timeScale = 0;
+            deathPanel.SetActive(true);
         }
 
     }
@@ -58,5 +65,15 @@ public class PlayerLife : MonoBehaviour
             rb.AddForce(Vector2.down * 5f, ForceMode2D.Impulse);
         }
 
+    }
+    public void ReStart()
+    {
+        SceneManager.LoadScene("SampleScene");
+        Time.timeScale = 1;
+        deathPanel.SetActive(false);
+    }
+    public void GoToMenu()
+    {
+        SceneManager.LoadScene("StartMenu");
     }
 }

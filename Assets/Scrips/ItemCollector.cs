@@ -7,14 +7,20 @@ public class ItemCollector : MonoBehaviour
     private int cherry = 0;
     public GameObject itemPrefab;
     public GameObject pauseMenu;
+    private int hightScore;
+    private int score;
 
     private Camera mainCamera;
     [SerializeField] private Text cherryText;
+    [SerializeField] private Text hightCherryText;
+    [SerializeField] private Text scoreText;
+    [SerializeField] private Text newHight;
     private void Start()
     {
         Time.timeScale = 1;
         pauseMenu.SetActive(false);
         mainCamera = Camera.main;
+        hightScore = PlayerPrefs.GetInt("HightScore", 0);
         SpawnRandomItem();
     }
 
@@ -27,6 +33,22 @@ public class ItemCollector : MonoBehaviour
             cherryText.text = "Cherries: " + cherry;
             SpawnRandomItem();
         }
+    }
+    private void Update()
+    {
+        score = cherry;
+        scoreText.text = "Cherries: " + score.ToString();
+        if (score > hightScore)
+        {
+            newHight.text = "New Hight Score!!!";
+            PlayerPrefs.SetInt("HightScore", score);
+            hightCherryText.text = "Hight Cherries: " + score.ToString();
+        }
+        else
+        {
+            hightCherryText.text = "Hight Cherries: " + hightScore.ToString();
+        }
+
     }
     private void SpawnRandomItem()
     {
