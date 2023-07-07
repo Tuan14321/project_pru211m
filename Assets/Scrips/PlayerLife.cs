@@ -57,6 +57,7 @@ public class PlayerLife : MonoBehaviour
     private void Die()
     {
         isGameOver = true;
+        AudioManager.instance.Play("GameOver");
         _animator.SetTrigger("death");
         boxCollider2D.enabled = false;
         if (rb != null)
