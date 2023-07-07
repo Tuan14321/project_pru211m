@@ -29,6 +29,7 @@ public class ItemCollector : MonoBehaviour
         if (collision.gameObject.CompareTag("Chery"))
         {
             Destroy(collision.gameObject);
+            AudioManager.instance.Play("Cherry");
             cherry++;
             cherryText.text = "Cherries: " + cherry;
             SpawnRandomItem();
