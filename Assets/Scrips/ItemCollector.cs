@@ -2,6 +2,7 @@
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
 public class ItemCollector : MonoBehaviour
 {
     private int cherry = 0;
@@ -9,7 +10,8 @@ public class ItemCollector : MonoBehaviour
     public GameObject pauseMenu;
     private int hightScore;
     private int score;
-
+    public Transform minYTransform;
+    public Transform maxYTransform;
     private Camera mainCamera;
     [SerializeField] private Text cherryText;
     [SerializeField] private Text hightCherryText;
@@ -54,19 +56,21 @@ public class ItemCollector : MonoBehaviour
     private void SpawnRandomItem()
     {
         Vector3 randomPosition;
-
+        float randomY = Random.Range(minYTransform.position.y, maxYTransform.position.y);
+        float randomViewportY = Mathf.InverseLerp(minYTransform.position.y, maxYTransform.position.y, randomY);
         do
         {
-            randomPosition = mainCamera.ViewportToWorldPoint(new Vector3(Random.value, Random.value, mainCamera.nearClipPlane));
+            randomPosition = mainCamera.ViewportToWorldPoint(new Vector3(Random.value, randomViewportY, mainCamera.nearClipPlane));
             randomPosition.z = 0f;
         }
         while (CheckCollisionWithTilemap(randomPosition));
 
         Instantiate(itemPrefab, randomPosition, Quaternion.identity);
     }
+
     private bool CheckCollisionWithTilemap(Vector3 position)
     {
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(position, itemPrefab.GetComponent<Collider2D>().bounds.size.x);
+        Collider2D[] colliders = Physics2D.OverlapBoxAll(position, itemPrefab.GetComponent<Collider2D>().bounds.size, 0f);
 
         foreach (Collider2D collider in colliders)
         {

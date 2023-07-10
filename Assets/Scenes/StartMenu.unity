@@ -374,7 +374,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1471619310}
-  - {fileID: 1542209290}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1268,6 +1267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volumeSlider: {fileID: 548558717}
   audioMixer: {fileID: 24100000, guid: 9b300007d06594e4689d12bfc926d2b6, type: 2}
+  SoundPanel: {fileID: 0}
 --- !u!114 &1499255226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1394,13 +1394,13 @@ RectTransform:
   m_Children:
   - {fileID: 843485897}
   - {fileID: 548558716}
-  m_Father: {fileID: 417033336}
-  m_RootOrder: -1
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 639, y: 280}
+  m_SizeDelta: {x: 1278, y: 560}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1542209291
 MonoBehaviour:

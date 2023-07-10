@@ -1,42 +1,80 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class Ramdon_Canon : MonoBehaviour
 {
-    public GameObject objectPrefab; // Prefab của game object cần xuất hiện
-    public Vector3 spawnPosition; // Vị trí xuất hiện của game object
+    public Transform startPosition;
+    public Transform endPosition;
+    public float moveSpeed = 5f; // Tốc độ di chuyển của đối tượng
+    public float delayMin = 4f; // Thời gian chờ tối thiểu trước khi di chuyển
+    public float delayMax = 5f; // Thời gian chờ tối đa trước khi di chuyển
+    public int objectPoolSize = 5; // Số lượng đối tượng trong pool
+    public GameObject objectPrefab; // Prefab của đối tượng cần tạo lại
 
-    public float minSpawnDelay = 1f; // Khoảng thời gian tối thiểu giữa các lần xuất hiện
-    public float maxSpawnDelay = 3f; // Khoảng thời gian tối đa giữa các lần xuất hiện
-
-    public float objectLifetime = 20f; // Thời gian tồn tại của game object
-
-    private float nextSpawnTime; // Thời điểm xuất hiện tiếp theo
+    private List<GameObject> objectPool = new List<GameObject>();
+    private bool isMoving = false;
 
     private void Start()
     {
-        // Tính thời điểm xuất hiện tiếp theo ban đầu
-        nextSpawnTime = Time.time + GetRandomSpawnDelay();
+        CreateObjectPool();
+
+        StartCoroutine(StartMovementAfterDelay());
     }
 
-    private void Update()
+    private void CreateObjectPool()
     {
-        // Kiểm tra nếu đã đến thời điểm xuất hiện
-        if (Time.time >= nextSpawnTime)
+        for (int i = 0; i < objectPoolSize; i++)
         {
-            // Tạo game object mới tại vị trí đã chỉ định
-            GameObject newObject = Instantiate(objectPrefab, spawnPosition, Quaternion.identity);
-
-            // Hủy game object sau thời gian objectLifetime
-            Destroy(newObject, objectLifetime);
-
-            // Tính thời điểm xuất hiện tiếp theo
-            nextSpawnTime = Time.time + GetRandomSpawnDelay();
+            GameObject obj = Instantiate(objectPrefab, startPosition.position, Quaternion.identity);
+            obj.SetActive(false);
+            objectPool.Add(obj);
         }
     }
 
-    private float GetRandomSpawnDelay()
+    private IEnumerator StartMovementAfterDelay()
     {
-        // Lấy một khoảng thời gian ngẫu nhiên trong khoảng minSpawnDelay đến maxSpawnDelay
-        return Random.Range(minSpawnDelay, maxSpawnDelay);
+        while (true)
+        {
+            float delay = Random.Range(delayMin, delayMax);
+            yield return new WaitForSeconds(delay);
+
+            GameObject obj = GetObjectFromPool();
+            obj.SetActive(true);
+            StartCoroutine(MoveObject(obj));
+
+            yield return new WaitForSeconds(delay);
+        }
+    }
+
+    private GameObject GetObjectFromPool()
+    {
+        foreach (GameObject obj in objectPool)
+        {
+            if (!obj.activeInHierarchy)
+                return obj;
+        }
+
+        // Nếu không còn đối tượng không hoạt động trong pool, tạo một đối tượng mới
+        GameObject newObj = Instantiate(objectPrefab, startPosition.position, Quaternion.identity);
+        objectPool.Add(newObj);
+        return newObj;
+    }
+
+    private IEnumerator MoveObject(GameObject obj)
+    {
+        isMoving = true;
+
+        Transform objTransform = obj.transform;
+
+        while (objTransform.position != endPosition.position)
+        {
+            objTransform.position = Vector3.MoveTowards(objTransform.position, endPosition.position, moveSpeed * Time.deltaTime);
+            yield return null;
+        }
+
+        obj.SetActive(false);
+
+        isMoving = false;
     }
 }
