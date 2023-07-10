@@ -6,7 +6,11 @@ public class RandomCherry : MonoBehaviour
     // Start is called before the first frame update
     public GameObject itemPrefab;
     public GameObject titleMap;
+    public Transform minYTransform;
+    public Transform maxYTransform;
+
     private bool spawningEnabled = true;
+
     private void Start()
     {
         StartCoroutine(SpawnItems());
@@ -29,39 +33,35 @@ public class RandomCherry : MonoBehaviour
     {
         Vector2 spawnPosition = Vector2.zero;
         bool validSpawn = false;
-        int maxAttempts = 100; // Số lần tối đa để tránh vòng lặp vô hạn
 
-        while (!validSpawn && maxAttempts > 0)
+        while (!validSpawn)
         {
             spawnPosition = GetRandomPositionWithinViewport();
 
-            Collider2D[] colliders = Physics2D.OverlapPointAll(spawnPosition);
-            bool collidesWithTitleMap = false;
-
-            foreach (Collider2D collider in colliders)
+            if (spawnPosition.y >= minYTransform.position.y && spawnPosition.y <= maxYTransform.position.y)
             {
-                if (collider.gameObject == titleMap)
+                Collider2D[] colliders = Physics2D.OverlapPointAll(spawnPosition);
+                bool collidesWithTitleMap = false;
+
+                foreach (Collider2D collider in colliders)
                 {
-                    collidesWithTitleMap = true;
-                    break;
+                    if (collider.gameObject == titleMap)
+                    {
+                        collidesWithTitleMap = true;
+                        break;
+                    }
+                }
+
+                if (!collidesWithTitleMap)
+                {
+                    validSpawn = true;
                 }
             }
-
-            if (!collidesWithTitleMap)
-            {
-                validSpawn = true;
-            }
-
-            maxAttempts--;
-        }
-
-        if (maxAttempts == 0)
-        {
-            Debug.LogWarning("Cannot find valid spawn position for the item.");
         }
 
         return spawnPosition;
     }
+
     public void StopSpawning()
     {
         spawningEnabled = false;
@@ -73,7 +73,7 @@ public class RandomCherry : MonoBehaviour
         Camera mainCamera = Camera.main;
 
         float randomX = Random.Range(0f, 1f);
-        float randomY = Random.Range(0f, 1f);
+        float randomY = Random.Range(minYTransform.position.y, maxYTransform.position.y);
 
         randomPosition = mainCamera.ViewportToWorldPoint(new Vector2(randomX, randomY));
 
