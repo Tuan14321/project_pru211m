@@ -5,8 +5,14 @@ using UnityEngine;
 public class Ramdon_Canon : MonoBehaviour
 {
     public Transform startPosition;
+
+    public Ramdon_Canon(Transform startPosition)
+    {
+        this.startPosition = startPosition;
+    }
+
     public Transform endPosition;
-    public float moveSpeed = 5f; // Tốc độ di chuyển của đối tượng
+    public float moveSpeed = 2f; // Tốc độ di chuyển của đối tượng
     public float delayMin = 4f; // Thời gian chờ tối thiểu trước khi di chuyển
     public float delayMax = 5f; // Thời gian chờ tối đa trước khi di chuyển
     public int objectPoolSize = 5; // Số lượng đối tượng trong pool

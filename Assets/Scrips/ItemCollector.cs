@@ -61,6 +61,7 @@ public class ItemCollector : MonoBehaviour
         do
         {
             randomPosition = mainCamera.ViewportToWorldPoint(new Vector3(Random.value, randomViewportY, mainCamera.nearClipPlane));
+            randomPosition.y = Mathf.Clamp(randomPosition.y, -3, 4);
             randomPosition.z = 0f;
         }
         while (CheckCollisionWithTilemap(randomPosition));
